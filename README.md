@@ -20,10 +20,10 @@ Using the song and log datasets, star schema needs to created to optimized for q
    songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 ## Dimension Tables
 1. users - users in the app
-   user_id, first_name, last_name, gender, level
+   - user_id, first_name, last_name, gender, level
 2. songs - songs in music database
-   song_id, title, artist_id, year, duration
+   - song_id, title, artist_id, year, duration
 3. artists - artists in music database
-   artist_id, name, location, latitude, longitude
+   - artist_id, name, location, latitude, longitude
 4. time - timestamps of records in songplays broken down into specific units
-   start_time, hour, day, week, month, year, weekday
+   - start_time, hour, day, week, month, year, weekday
